@@ -1,0 +1,14 @@
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-icons a {
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+
+.header-icons a:hover {
+  color: var(--color-danger);
+}
