@@ -1,27 +1,31 @@
 .about__achievments {
   margin-top: 10rem;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 .about__achievments-container {
   display: grid;
   grid-template-columns: 40% 60%;
-  gap: 5rem;
+  gap: 2rem;
 }
 
 .about__achievments-right > p {
-  margin: 1.6rem 0 2.5rem;
+  margin: 1.6rem 0 2rem;
+}
+
+.about__achievments-left img {
+  margin-top: 3rem;
 }
 
 .achievments__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .achievment__card {
   background: var(--color-bg1);
-  padding: 1.6rem;
+  padding: 0.8rem;
   border-radius: 1rem;
   text-align: center;
   transition: var(--transition);
@@ -115,7 +119,7 @@
   padding: 0.5rem;
 }
 
-@media screen and (max-width: 1024) {
+@media screen and (max-width: 1024px) {
   .about__achievments {
     margin-top: 2rem;
   }
@@ -157,5 +161,9 @@
 
   .team__member p {
     margin-bottom: 1.5rem;
+  }
+
+  .about__achievments-left img {
+    margin-top: 8rem;
   }
 }

@@ -216,8 +216,8 @@ header {
 
 .category {
   background: var(--color-bg2);
-  padding: 2rem;
-  border-radius: 2rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
   transition: var(--transition);
 }
 
@@ -262,7 +262,7 @@ header {
 /* ============== End Categories ============== */
 /* ============== Popular Course ============== */
 .courses {
-  margin-top: 10rem;
+  margin-top: 3rem;
 }
 
 .courses__container {
@@ -491,10 +491,13 @@ footer ul li a:hover {
       opacity: 1;
     }
   }
+  .header-icons a i {
+    display: flex;
+    font-size: 1.1rem;
+  }
 
   .nav__menu li a {
     background: var(--color-primary);
-    box-shadow: -4rem 6rem 10rem rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
     display: grid;

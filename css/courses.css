@@ -12,3 +12,14 @@
 .header-icons a:hover {
   color: var(--color-danger);
 }
+
+.course__info p {
+  margin-bottom: 0.3rem;
+}
+.course__info .iconkur p i {
+  margin-right: 1rem;
+}
+
+.course__info .iconkur a {
+  margin-top: 2rem;
+}
